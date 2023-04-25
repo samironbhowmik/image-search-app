@@ -32,6 +32,11 @@
     border: none;
 }
 
+.bookmark-btn:hover{
+    background-color: rgb(21, 21, 21);
+    transition: .5s;
+}
+
 
 .input-form{
     width: 70%;
@@ -41,15 +46,14 @@
     align-items: center;
 }
 
-
-
 .search{
     margin-right: auto;
     width: 88%;
-    height: 58%;
+    height: 60%;
     border-radius: 10px;
     outline: none;
     border: none;
+    padding-left: 10px;
     background-color: #ededed;
 }
 
@@ -80,10 +84,10 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
 }
-
 .images img{
-    border-radius: 10px;
+    border-radius: 16px;
 }
 
