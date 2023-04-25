@@ -84,10 +84,36 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: center;
     /* background-color: antiquewhite; */
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.img-button{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    border: 2px solid white;
+    outline: none;
+    padding: 14px 20px;
+    border-radius: 10px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.images:hover .img-button{
+    opacity: 1;
+    transition: .4s;
+    box-shadow: 0px 0px 20px white;
+    background-color: rgb(67, 67, 67);
+    color: white;
+
+
 }
 .images img{
     border-radius: 16px;
+    margin: 10px;
 }
-
